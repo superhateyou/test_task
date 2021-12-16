@@ -1,0 +1,58 @@
+.regForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.warnings {
+    margin: -10.5px;
+}
+
+.regContetn {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+	outline: none;
+	border: none;
+}
+
+button {
+    display: inline-block;
+    width: 80%;
+    height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    text-align: center;
+
+    color: #524f4e;
+    background: white;
+    transition: .3s;
+}
+
+button:hover{
+    background: #6a6a6a;
+    color: white;
+}
+
+.content {
+    background-color:rgba(255,255,255,.5);
+    border-radius: 1em;
+    /* box-shadow:0 0 .25em rgba(0,0,0,.25); */
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }

@@ -1,0 +1,30 @@
+.nav {
+    grid-area: n;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link_container {
+    box-sizing:border-box;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+.activeLink {
+    color: #383838;
+    font-weight: 700;
+    text-decoration: underline;
+}
